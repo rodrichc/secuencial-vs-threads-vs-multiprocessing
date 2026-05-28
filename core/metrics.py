@@ -7,8 +7,7 @@ def obtener_info_procesador():
     Detecta automáticamente el nombre comercial del procesador y sus núcleos.
     """
 
-    nombre_cpu = platform.processor() or "Procesador Desconocido"
-    print(nombre_cpu)
+    nombre_cpu = ""
     sistemas_operativos = platform.system()
     
 
@@ -40,6 +39,9 @@ def obtener_info_procesador():
 
     nucleos_fisicos = psutil.cpu_count(logical=False) 
     hilos_logicos = psutil.cpu_count(logical=True)   
+
+    if(not nombre_cpu):
+        nombre_cpu = "Procesador Desconocido"
     
     return nombre_cpu, nucleos_fisicos, hilos_logicos
 
