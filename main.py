@@ -1,4 +1,3 @@
-# main.py
 import psutil
 from execution.sequential import ejecucion_secuencial
 from execution.thread import ejecucion_threads
