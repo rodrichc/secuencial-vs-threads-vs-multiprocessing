@@ -1,0 +1,4 @@
+Procesador,Estrategia,Tiempo Promedio (s),CPU Promedio (%),RAM Promedio (MB)
+AMD Ryzen 5 5600 6-Core Processor,Secuencial,18.14,19.0,0.0
+AMD Ryzen 5 5600 6-Core Processor,Threads,18.55,25.3,0.05
+AMD Ryzen 5 5600 6-Core Processor,Multiprocessing,7.23,35.1,0.0
